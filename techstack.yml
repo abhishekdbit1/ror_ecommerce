@@ -1,8 +1,8 @@
 repo_name: abhishekdbit1/ror_ecommerce
-report_id: 1157f7d80ba83c01819535e65ad2bd02
+report_id: 913cf6fd6d012e8e229a51c3e40c936c
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-12T12:11:49+00:00'
+timestamp: '2024-03-14T11:58:26+00:00'
 requested_by: abhishekdbit1
 provider: github
 branch: master
@@ -1057,10 +1057,3 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 0.9.20
-  - name: YARD's default template vulnerable to Cross-site Scripting in generated
-      frames.html
-    cve_id: CVE-2024-27285
-    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
-    detected_date: Feb 29
-    severity: moderate
-    first_patched: 0.9.36
