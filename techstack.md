@@ -46,7 +46,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [abhishekdbit1/ror_ecommerce](https://github.com/abhishekdbit1/ror_ecommerce)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|54<br/>Tools used|03/12/24 <br/>Report generated|
+|54<br/>Tools used|03/14/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -250,7 +250,7 @@ Full tech stack [here](/techstack.md)
 |[sprockets](https://rubygems.org/sprockets)|v3.7.1|11/09/16|David Henner |MIT|[CVE-2018-3760](https://github.com/advisories/GHSA-pr3h-jjhj-573x) (High)|
 |[uglifier](https://rubygems.org/uglifier)|v3.2.0|09/14/13|David Henner |MIT|N/A|
 |[will_paginate](https://rubygems.org/will_paginate)|v3.1.6|08/15/17|David Henner |MIT|N/A|
-|[yard](https://rubygems.org/yard)|v0.9.9|08/13/12|Dean Perry |MIT|[CVE-2017-17042](https://github.com/advisories/GHSA-gj4p-3wh3-2rmf) (High)<br/>[CVE-2019-1020001](https://github.com/advisories/GHSA-xfhh-rx56-rxcr) (High)<br/>[CVE-2024-27285](https://github.com/advisories/GHSA-8mq4-9jjh-9xrc) (Moderate)|
+|[yard](https://rubygems.org/yard)|v0.9.9|08/13/12|Dean Perry |MIT|[CVE-2017-17042](https://github.com/advisories/GHSA-gj4p-3wh3-2rmf) (High)<br/>[CVE-2019-1020001](https://github.com/advisories/GHSA-xfhh-rx56-rxcr) (High)|
 
 <br/>
 <div align='center'>
