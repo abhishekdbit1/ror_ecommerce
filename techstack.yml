@@ -1,8 +1,8 @@
 repo_name: abhishekdbit1/ror_ecommerce
-report_id: c18b672495b15c0d94008d090537a142
+report_id: 9381d998dc698c364cb105b724d7744b
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-18T12:11:48+00:00'
+timestamp: '2024-03-21T09:27:54+00:00'
 requested_by: abhishekdbit1
 provider: github
 branch: master
@@ -729,6 +729,12 @@ tools:
     detected_date: Sep 28
     severity: high
     first_patched: 1.12.5
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
   - name: libxslt Type Confusion vulnerability that affects Nokogiri
     cve_id: CVE-2019-13118
     cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
@@ -820,24 +826,18 @@ tools:
     detected_date: Apr 12
     severity: high
     first_patched: 1.13.4
-  - name: Out-of-bounds Write in zlib affects Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
-    detected_date: Apr 12
-    severity: high
-    first_patched: 1.13.4
   - name: Cross-site Scripting in loofah
     cve_id: CVE-2018-8048
     cve_url: https://github.com/advisories/GHSA-x7rv-cr6v-4vm4
     detected_date: Jun 10
     severity: moderate
     first_patched: 1.8.3
-  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
-    cve_id: CVE-2020-26247
-    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
-    detected_date: Aug 22
+  - name: Use-after-free in libxml2 via Nokogiri::XML::Reader
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-vcc3-rw6f-jv97
+    detected_date: Mar 19
     severity: moderate
-    first_patched: 1.11.0
+    first_patched: 1.15.6
   - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
     cve_id:
     cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
@@ -855,7 +855,7 @@ tools:
     cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
     detected_date: Feb 6
     severity: moderate
-    first_patched: 1.16.2
+    first_patched: 1.15.6
   - name: Uncontrolled resource consumption in nokogiri
     cve_id: CVE-2017-18258
     cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
@@ -880,6 +880,12 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 1.11.4
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
 - name: prawn
   description: Prawn is a fast, tiny, and nimble PDF generator for Ruby
   package_url: https://rubygems.org/prawn
